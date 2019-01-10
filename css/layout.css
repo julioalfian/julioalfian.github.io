@@ -1317,7 +1317,7 @@
 .theme_panel {
     position: fixed;
     right: 0;
-    top: 15%;
+    top: 12%;
     width: 150px;
     background: #fff;
     text-align: center;
@@ -1371,7 +1371,7 @@
 }
 
 .theme_menu h4 {
-    margin: 25px 0 10px 0;
+    margin: 15px 0 10px 0;
     padding: 0 5px;
     display: block;
     font-size: 12px;
