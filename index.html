@@ -209,13 +209,15 @@
                   </div>
                   <!-- profile titles -->
                   <div class="title">Julio Alfian Dwicahya</div>
-                  <div class="subtitle">Front-end Developer</div>
+                  <!-- <div class="subtitle">Front-end Developer</div> -->
 
                   <div id="typed-strings">
-                        <p>Typed.js is a <strong>JavaScript</strong> library.</p>
-                        <p>It <em>types</em> out sentences.</p>
-                    </div>
-                    <span id="typed"></span>
+                        <p>I'm <em>Gamer</em></p>
+                        <p>I'm Fulsal Player</p>
+                        <p><strong>Frontend</strong> Developer.</p>
+                     
+                  </div>
+                  <span id="typed"></span>
                   
                   <!-- profile socials -->
                   <div class="social">
@@ -1068,16 +1070,19 @@
       <script src="js/masonry-filter.js"></script>
 		<script src="js/jquery.slimscroll.js"></script>
       <script src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js"></script>
-      <script src="js/typed.js"></script>
+      
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 
       <script>
-         import Typed from 'js/typed.js'
-         console.log('cok')
-
-         var typed = new Typed('#typed', {
-            stringsElement: '#typed-strings'
-         });
-      </script>
+            var typed = new Typed('#typed', {
+              stringsElement: '#typed-strings',
+              backSpeed: 60,
+              typeSpeed: 60,
+              startDelay: 2500,
+              smartBackspace: true,
+              backDelay: 2000,
+            });
+          </script>
       <!--
          Google map api
          -->
@@ -1123,6 +1128,10 @@
             background: -moz-radial-gradient(center,ellipse cover,#dddddd 0%,rgba(255,255,255,0) 70%);
             background: -webkit-radial-gradient(center,ellipse cover,#dddddd 0%,rgba(255,255,255,0) 70%);
             background: radial-gradient(ellipse at center,#dddddd 0%,rgba(255,255,255,0) 70%);
+         }
+
+         .social {
+            margin-top: 10px
          }
       </style>
    </body>
