@@ -148,3 +148,7 @@ button:hover {
   background: linear-gradient(to bottom right, #50a3a2 0%, #2eca7f 100%);
 }
 
+.info-list ul li strong {
+  background: #2eca7f;
+  color: #fefefe;
+}
