@@ -155,7 +155,6 @@ $(function() {
     if ($(this).hasClass('active')) {
       $(this).removeClass('active')
       $('.theme_panel').removeClass('active')
-
       return false
     } else {
       $(this).addClass('active')

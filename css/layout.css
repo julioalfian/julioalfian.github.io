@@ -1214,13 +1214,14 @@
 	7. Popups
 */
 .mfp-wrap.popup-box-inline {
-	margin: 0 0 0 -360px;
+	margin: 30px 0 0 -360px;
 	padding: 0;
 	top: 0;
 	left: 50%;
 	overflow: auto;
 	width: 720px;
-	height: 100%;
+	height: auto;
+	max-height: 100%;
 	background: #ffffff;
 }
 
